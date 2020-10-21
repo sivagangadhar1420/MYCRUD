@@ -1,0 +1,61 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand">HouseHub<br>
+  <!-- <small class="m-0 p-0">Home Page</small> -->
+</a>
+  <button class="navbar-toggler" 
+   type="button"
+   data-toggle="collapse" 
+   data-target="#navbarSupportedContent"
+    style="float: right;">
+    <span class="fa fa-bars"></span>
+  </button>
+  <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto" style="color: white;">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink='/tasks' style="color: white;">Task <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink='/task2' style="color: white;">Task2</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink='/movies' style="color: white;">Movies</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink='/udemy' style="color: white;">Udemy</a>
+      </li>
+
+      
+      <li class="nav-item active">
+        <a class="nav-link" routerLink='/AddOptions' style="color: white;">AddOptions</a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto" style="color: white;">
+      <li class="nav-item active">
+        <a class="nav-link"  style="color: white;">About</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" style="color: white;">Services</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" style="color: white;">Settings</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" style="color: white;">Contact</a>
+      </li>
+
+      <li class="nav-item active ">
+        <button type="button" class="btn btn-default pl-3"  
+        data-toggle="collapse" data-target="#btn1">
+        <i class="fa fa-arrow-circle-down bg-info" id="rm"  style="font-size: 2rem; "></i></button>
+      </li>
+  
+   
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+    
+    
+
